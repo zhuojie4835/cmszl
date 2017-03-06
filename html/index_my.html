@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=2.0"/>
+<title>  21世纪经济报道</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<link rel="apple-touch-icon" href="http://static.21sq.org/images/mobile_site/desktop_logo.png"/>
+<link href="css/mobile_site.css" rel="stylesheet" type="text/css" />
+<!--大图样式 begin-->
+<!--组件依赖css begin-->
+<link rel="stylesheet" type="text/css" href="css/slider.css" />
+<!--组件依赖css end-->
+<!--组件依赖js begin-->
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/zepto.extend.js"></script>
+<script type="text/javascript" src="js/zepto.ui.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+ <!--组件依赖js end-->
+<!--大图样式 end-->		    
+<style type="text/css">
+.newscontent p {
+	text-indent: 2em;
+}
+.content .kuaibao_list {
+    border-bottom: 1px solid #e2e2e2;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0 10px 10px;
+}
+
+.content .kuaibao_list .news_title {
+    min-height: 36px;
+}
+</style>
+    
+</head>
+<body>
+	<script language="JavaScript" type="text/JavaScript">
+		function showdiv(targetid,objN){
+		   
+			var target=document.getElementById(targetid);
+			var clicktext=document.getElementById(objN)
+		
+			if (target.style.display=="block"){
+				target.style.display="none";
+				clicktext.innerText="更多∨";
+			} else {
+				target.style.display="block";
+				clicktext.innerText="收起∧";
+			}
+		}
+	
+	</script>
+	<!--header-->
+	<div id="head">
+		<div class="logo">
+			<div class="logo_pic"><a href="/"><img src="http://static.21sq.org/images/mobile_site/logo4.gif" width="160" height="34" alt="21世纪经济报道" /></a></div>
+		</div>
+		<div class="nav">
+			<ul>
+				<li  class="hover"><a href="/">热门</a></li>
+				<li  ><a href="/channel/finance">金融</a></li>
+				<li  ><a href="/channel/politics">宏观</a></li>
+				<li  ><a href="/channel/NPCandCPPCC">全国两会</a></li>
+				<li  ><a href="/channel/capital">证券</a></li>
+				<li><a  id="showtext"  class="open"onClick="showdiv('contentid','showtext')">更多∨</a></li>
+			</ul>
+			<!-- list hide -->
+			<div id="contentid" class="none">
+				<ul>					
+					<li><a href="/jujiao">聚焦</a></li>
+					<li><a href="/channel/business">商业</a></li>
+					<li><a href="/channel/opinion">观点</a></li>
+					<li><a href="/channel/technology">科技</a></li>
+					<li><a href="/channel/life">生活家</a></li>
+					<li><a href="/channel/vision">视觉</a></li>
+					<li><a href="/channel/global">全球市场</a></li>
+					<li><a href="/channel/entrepreneur">创客</a></li>
+					<li><a href="/channel/21tv">视频</a></li>
+					<li><a href="/channel/marathon">马拉松</a></li>
+				</ul>
+				<!-- list 3 -->
+				<ul class="news_product">
+					<li ><a href="/channel/express" class="kuaibao" >快报</a></li>
+					<li ><a href="/channel/investment" class="touzitong" >股事通</a></li>
+					<li><a class="shuzibao" href="http://epaper.21jingji.com">数字报</a></li>
+				</ul>
+			</div>
+		</div>		
+	</div>	
+			
+	</div>
+
+	<div id="slider" class="ui-slider">
+		<div>
+			<a target="_blank" href="http://m.21jingji.com/jujiao/getList?ztid=266"><img style="width:100%; height:100%;" lazyload="http://img.21sq.org/uploadfile/cover/20170305/201703051147114258_small.jpg" ></a>
+			<p>全国两会直击丨2017年政府工作报告发布</p>
+		</div>
+		<div>
+			<a target="_blank" href="http://m.21jingji.com/article/20170304/0974942b101c3fc37becefc788c06ce5.html"><img style="width:100%; height:100%;" lazyload="http://img.21sq.org/uploadfile/cover/20170304/201703040718278219_small.jpg" >
+			</a>
+			<p>揭秘顺丰背后的资本推手 </p>
+		</div>
+		<div>
+			<a target="_blank" href="http://m.21jingji.com/article/20170304/d32afa272ce148f4c51ec35c0cf88db0.html"><img style="width:100%; height:100%;" lazyload="http://img.21sq.org/uploadfile/cover/20170304/201703040720229177_small.jpg" ></a>
+			<p>后股权之争时代：万科的万亿“新实业”实践</p>
+		</div>	
+	</div>
+	<div class="content">
+		<div class="news_list">
+			<a href="http://m.21jingji.com/article/20170306/herald/e04d3be3e06a947608037dd7ba2ac0e0.html"><img height="150" width="200" src="http://img.21sq.org/uploadfile/cover/20170306/201703060843594468_small.JPG"><div class="news_title">重磅！航天电子等5只股票获社保及公私募联手重仓</div><div class="news_date">1小时前</div></a>
+		</div>
+	</div>
+	<script>
+		//创建slider组件
+		$('#slider').slider({loop:true});
+
+	</script>		
+	
+<!--footer-->
+	<div class="footer">
+		<div class="info">
+			<p>21世纪经济报道手机版 <a href="http://app.21jingji.com">免费下载APP客户端</a></p>
+			<p>二十一世纪传媒 21新媒体</p>
+		</div>
+	</div>
+<script type="text/javascript" src="http://static.21sq.org/js/jquery-1.8.0.min.js"></script>
+
+</body>
+</html>

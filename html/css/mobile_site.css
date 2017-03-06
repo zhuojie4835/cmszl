@@ -1,0 +1,130 @@
+
+html { background-color:#ededed}
+body {  color:#000; font-size:16px; /* width:320px; min-width:240px;*/ max-width:640px;  margin:0 auto; padding:0; font-family:Arial; background-color:#fff}
+a:link,a:visited {text-decoration:none;color:#3e3e3e;}
+.clb { clear:both; height:1px; line-height:1px; font-size:1px; margin:0; padding:0;}
+
+a:hover,a:active {text-decoration:none; color:#3e3e3e;}
+.wrap { line-height:1.8; border:0px; width:100%; background:#FFFFFF}
+h1,h2,h3,h4,h5,h6,p,ul,li { margin:0; padding:0; font-size:16px; list-style-type:none}
+img { border:0}
+#head { /*height:110px margin:0 0 10px 0;*/ background:#19bf80;}
+#head .logo { height:54px;background:#19bf80; overflow:hidden; /*border-bottom:solid 1px #CCCCCC;*/ padding:0 0; /*url(http://img.21cbh.com/images/wapimages/main_nav_bg.gif) repeat-x;*/}
+#head .logo img { display:block; vertical-align:bottom; }
+#head .logo .logo_pic { padding:0 0 0 20px;}
+#head .logo .logo_pic img { display:block; border:none;margin:10px 0 0 0; }
+#head .logo .download_app { float:right; padding:0 20px 0 0;margin:10px 0 0 0;/* padding:2px 20px 0 0;*/}
+#head .nav { background:#eeeeee;/*url(http://img.21cbh.com/images/wapimages/nav_bg.gif) height:52px;*/ line-height:24px; color:#FFFFFF; padding:0; font-size:16px; width:100%; max-width:640px}
+#head .nav a:link,#head .nav a:visited { color:#000}
+#head .nav ul { height:35px; /*padding:0 10px;*/width:100%; max-width:640px;}
+#head .nav ul#box { display:none; height:70px;}
+#head .nav ul li { float:left; /*width:calc(100% /6.00);width:-moz-calc(100% /6.00);width:-webkit-calc(100% /6.00);*/ width:16.666666666%; height:35px; font-size:14px; line-height:35px; overflow:hidden; text-align:center;/*background:url(http://static.21sq.org/images/mobile_site/nav_line.gif) right bottom no-repeat*/; font-family:Verdana, Geneva, sans-serif}
+#head .nav ul li a { color:#000; display:block; cursor:pointer; display:block }
+#head .nav ul li.hover a { color:#19bf80; font-weight:bold; }
+#head .nav ul li.hover { background:url(http://static.21sq.org/images/mobile_site/nav_bottomline.gif) repeat-x 0 bottom;}
+
+#head .nav ul.news_product { clear:both; border-top:solid 1px #e6e6e6; height:40px; line-height:40px;}
+#head .nav ul.news_product li { /*width:calc(100% /3.00);width:-moz-calc(100% /3.00);width:-webkit-calc(100% /3.00);*/ width:33.33333333%; height:40px; line-height:40px;}
+#head .nav ul.news_product li a.kuaibao { background: url(http://static.21sq.org/images/mobile_site/icon_kuaibao.png) no-repeat center center; background-size:61px 20px; text-indent:20px}
+#head .nav ul.news_product li a.touzitong { background:url(http://static.21sq.org/images/mobile_site/icon_touzitong.png) no-repeat center center; background-size:72px 20px; text-indent:20px}
+#head .nav ul.news_product li a.shuzibao { background: url(http://static.21sq.org/images/mobile_site/icon_shuzibao.png) no-repeat center center; background-size:72px 20px; text-indent:20px}
+.none { display: none; }
+#contentid { position:absolute; width:100%; z-index:999; background:#eeeeee;max-width:640px;box-shadow:0 10px 10px rgba(0,0,0,.2);}
+/*#head .nav ul li a.open { text-indent:10px; background:url(http://static.21sq.org/images/mobile_site/head_open.gif) 15px 15px no-repeat}
+#head .nav ul li a.close { text-indent:10px; background:url(http://static.21sq.org/images/mobile_site/head_close.gif) 15px 15px no-repeat}*/
+
+.content { width:100%; }
+
+/*专题*/
+.banner { background:#006400; max-height:210px; min-height:105px; overflow:hidden; position:relative}
+.banner img { width:100%; vertical-align:bottom; max-width:640px;}
+.banner span { position:absolute; color:#FFFFFF; font-size:30px; padding:0 0 0 10px; line-height:105px; font-family:SimHei}
+
+
+/*首页列表*/
+.content { background-color:#FFF; margin:10px 0 0 0; }
+.content { clear:both}
+.content .news_list { line-height:22px;}
+.content .news_list .news_stitle { /*background:#ededed;*/ height:30px; line-height:30px; margin:0 0 10px 0; color:#168359; font-weight:bold}
+.content .news_list .news_stitle a { padding:0 20px; margin:0;color:#168359; font-weight:bold}
+.content .news_list .news_stitle a span { float:right; font-size:14px}
+.content .news_list a { display:block; padding:0 15px 10px 15px; border-bottom:solid 1px #e2e2e2; margin:0 0 10px 0; clear:both }
+.content .news_list a img {width: 80px;height: 60px;margin: 2px 0 0 10px;float: right;}
+.content .news_list .news_title { font-size:17px; color:#000000; height:44px; overflow:hidden}
+.content .news_list .news_date { font-size:12px; color:#666666}
+.content .news_list .news_desc { font-size:13px; color:#666666; max-height:44px; overflow:hidden}
+
+.content .news_list .album { display:block; clear:both}
+.content .news_list .album .news_title { height:auto; overflow:auto}
+.content .news_list .album ul { height:65px; overflow:hidden}
+.content .news_list .album ul li { float:left; width:32%; text-align:; margin:0 2% 0 0;}
+.content .news_list .album ul li.last { margin:0}
+.content .news_list .album ul li img { float:none; padding:0 0 0 0;; margin:0 0 0 0; width:100%; height:100%}
+
+.content .news_list a .live_list img { float:none; width:100%; padding:0; margin:0; height:auto;}
+.content .news_list a .live_list .news_title { float:none; height:22px;;}
+.content .news_list a .live_list .news_date span.tag { float:right; color:#19bf80; border:solid 1px #19bf80; font-size:12px; line-height:20px; padding:0 5px; border-radius:2px;}
+.content .news_list a .live_list .news_date { float:none}
+
+.content .news_list a .live_list .news_date div.live_time {}
+.content .news_list a .live_list .news_date span.live_state_string  {text-align:right;float:right;border:1px solid #19bf80;color:#19bf80;padding:1px 3px 1px 3px;font-weight:bold;}
+.content .news_list a .live_list .news_date div.live_time span.live_date_playing {color:#19bf80;}
+.content .news_list a .live_list .news_date span.live_date_non_play {color:gray;}
+.content .news_list a .live_list .news_date span.live_time_playing {color:#19bf80;padding:0px 0px 0px 25px;}
+.content .news_list a .live_list .news_date span.live_time_non_play {color:gray;padding:0px 0px 0px 25px;}
+
+/*快报*/
+.content .kuaibao_list { line-height:22px; clear:both}
+.content .kuaibao_list a { display:block; padding:0 10px 10px 10px; border-bottom:solid 1px #e2e2e2; margin:0 0 10px 0; }
+.content .kuaibao_list .news_title { font-size:14px; color:#000000; max-height:110px; overflow:hidden; padding:0 0 0 10px;}
+.content .kuaibao_list .news_date { font-size:12px; color:#666666; float:left; width:40px; text-align:center}
+.content .kuaibao_list .news_date span { display:block; font-weight:bold}
+
+/*聚焦*/
+.content .jujiao_list { line-height:22px; clear:both}
+.content .jujiao_list a { display:block; padding:0 10px 10px 10px; border-bottom:solid 1px #e2e2e2; margin:0 0 10px 0; }
+.content .jujiao_list a img { width:100%; max-height:210px;}
+
+.load_more { margin:0 0 20px 0;}
+.load_more a { /*width:100%;*/ height:40px; line-height:40px; margin:0 15px; display:block; background:#fff; border:solid 1px #ccc; border-radius:50px; text-align:center; display:block; font-size:14px;}
+
+
+/*正文*/
+.title {font-size:21px; font-weight:bold; line-height:1.5em; margin:10px 20px 5px 20px; padding:0 0 0 0;}
+.date { font-size:13px;color:#666666; margin:0 20px 10px 20px;}
+.newscontent {font-size:16px; line-height:1.7em; color:#363636; margin:0 20px 70px 20px;}
+.newscontent p {margin:0 0 0.7em 0; text-align:justify; text-align-last:justify;text-justify:inter-ideograph;}
+.newscontent p b { font-size:22px; color:#000000;}
+.newscontent p img{max-width:100%;margin-left:-2em;}
+
+.morenews { margin:0 20px 50px 20px; padding:20px 0 0 0; background:#e9e9e9; position:relative}
+.morenews .morenewsh6 { position:absolute; top:-10px;}
+.morenews .morenewsh6 span { background:#818181; color:#FFFFFF; font-size:14px; padding:10px 15px;}
+.morenews a { color:#4c4b4b; text-decoration:none; display:block}
+.morenews ul { list-style:none; margin:0; padding:0}
+.morenews ul li { color:#4c4b4b;font-size:14px; text-indent:10px; height:45px; overflow:hidden; line-height:45px; border-bottom:solid 1px #dbdbdb; background:#e9e9e9 url(http://static.21sq.org/images/mobile_site/html_rightarrow.png) no-repeat right center;}
+.morenews ul li a {height:45px; overflow:hidden; line-height:45px;}
+.morenews ul li span { float:right; font-size:10px; margin:0 10px 0 0; color:#666666}
+
+.gentie { background:#f3f3f3; padding:10px 20px 20px 20px;}
+.gentieh6 { color:#000000; font-size:20px; line-height:30px;}
+.no_gentie { text-align:center; line-height:40px}
+.message { padding:10px 0 0 0;}
+.message .message_list { clear:both; border-bottom:solid 1px #e4e4e4; margin:0 0 15px 0; padding:0 0 15px 0;}
+.message .message_list .face { float:left; width:19%; }
+.message .message_list .face img { box-shadow:0 0 5px #9e9e9e; width:75%;  margin:5px 0 0 3px;}
+.message .message_con { float:left; width:81%;  }
+.message .message_con .name { font-size:14px; line-height:24px;}
+.message .message_con .name span { float:right; font-size:12px; color:#666666 }
+.message .message_con .txt { font-size:13px; line-height:20px; color:#666666}
+.message .message_con { }
+
+
+.reply { clear:both;}
+.reply .text_box { width:100%; height:4em; padding:0; margin:0 0 10px 0; border:solid 1px #cecece; font-size:16px; line-height:24px}
+.reply .reply_button { border:0 none; color:#FFFFFF; width:100px; height:30px; font-size:16px; line-height:30px; text-align:center; background:url(http://static.21sq.org/images/mobile_site/button.jpg);}
+
+/*页脚*/
+.footer { background:#f4f4f4; /*border-top:solid 1px #CCCCCC;*/ text-align:center; padding:10px 0; font-size:16px; line-height:1.3em}
+.footer .info p { color:#666666; font-size:12px}
+.footer p { text-align:center}
