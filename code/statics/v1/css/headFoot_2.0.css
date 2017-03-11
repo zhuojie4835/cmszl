@@ -1,0 +1,112 @@
+/**
+*通用css
+*/
+@charset "utf-8";body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,address{margin:0;padding:0;}html{color:#000}body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}fieldset,img{border:0;}img{vertical-align:middle}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}article,aside,details,figcaption,figure,footer,header,dialog,hgroup,menu,nav,section,summary,time,mark,audio,video{display:block;margin:0;padding:0;}li{list-style:none;}a{color:#666;text-decoration:none}a:hover{color:#cc0000;}p{word-wrap:break-word}table{border-collapse:collapse;border-spacing:0;font-size:inherit;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;outline:none}html{_background:url(about:black) no-repeat fixed}.clearfix:after{content:".";display:block;height:0;font-size:0;clear:both;visibility:hidden;}.clearfix{display:inline-block;}* html .clearfix{height:1%;}.clearfix{display:block;}.comWidth,.comWith{width:1000px;margin:0 auto}.h_10{height:10px;overflow:hidden;}.h_15{height:15px;overflow:hidden;}.h_30{height:30px;overflow:hidden;}.mt10{margin-top:10px}.mt30{margin-top:30px}.pt30{padding-top:30px}.pos_fix{position:fixed;}.pos_sta{position:static;}.tal{text-align:left}.tar{text-align:right}.dn{display:none}.db{display:block;}.fl_dib{float:left;display:inline-block;*display:inline;*zoom:1}.fr_dib{float:right;display:inline-block;*display:inline;*zoom:1}.t,input{-webkit-transition:all .5s ease-in-out 0s;-o-transition:all .5s ease-in-out 0s;-moz-transition:all .5s ease-in-out 0s;-ms-transition:all .5s ease-in-out 0s;transition:all .5s ease-in-out 0s;}a{-webkit-transition:all .2s ease-in-out 0s;-o-transition:all .2s ease-in-out 0s;-moz-transition:all .2s ease-in-out 0s;-ms-transition:all .2s ease-in-out 0s;transition:all .2s ease-in-out 0s;}input.input_focus{border:1px solid #3572ea\9;border-right:0 none\9;box-shadow:0px 0px 10px #3572ea;}input.input_error{border:1px solid #cc0000\9;border-right:0 none\9;box-shadow:0px 0px 10px #cc0000}
+.load_img{width:300px;height:225px;overflow:hidden;position:relative;}
+.load_img img{display:block;width:100%;height:100%;}
+.load_img em{position: absolute;top:0;left:0;width:100%;height:100%;_display:none;background-color: #000;opacity:0;filter:alpha(opacity=0);transition:all 1.2s ease 0s;-webkit-transition:all 1.2s ease 0s;-moz-transition:all 1.2s ease 0s;-ms-transition:all 1.2s ease 0s;-o-transition:all 1.2s ease 0s}
+.load_img:hover em{opacity:0.3;filter:alpha(opacity=30)}
+.lid_img{background:url('../images/haedFoot/loading.gif') no-repeat center center #ddd;width:300px;height:225px;overflow:hidden}
+.lid_img img{display:block;width:100%;height:100%}
+.lad_img{background:url('../images/haedFoot/loading.gif') no-repeat center center #ddd;width:300px;height:225px;overflow:hidden}
+.lad_img img{display:block;width:100%;height:100%;transition:all 1.2s ease 0s;-webkit-transition:all 1.2s ease 0s;-moz-transition:all 1.2s ease 0s;-ms-transition:all 1.2s ease 0s;-o-transition:all 1.2s ease 0s}
+.lad_img:hover img{transform:scale(1.1);-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1)}
+.tkp_header{padding:30px 0 15px 0;font:12px/20px "宋体";position:relative;text-align: center;}
+.tkp_header .logoBox{_width:490px}
+.tkp_header .searchBox{_width:240px}
+.tkp_header .tkp_channel_logo{width:83px;height:45px;overflow:hidden;}
+.tkp_header .tkp_channel_logo_child{height:26px}
+.tkp_header .ad_img_pos{display:block;position:absolute;top:45px;left:51%;width:185px;height:40px;overflow:hidden;z-index:1}
+.tkp_header .a_icon{display:inline-block;*display:inline;*zoom:1;background:url('http://static.takungpao.com/images/haedFoot/icon_sprite.png') no-repeat left top;}
+.tkp_header .logoImg{width:120px;height:45px;background:none;margin-right:30px;overflow:hidden;}
+.tkp_header .logoImg img{display:block;width:100%;height:100%;}
+.tkp_header .linkBox span{margin-left:5px;color:#ddd;}
+.tkp_header .linkBox{height:20px;margin-bottom:5px}
+.tkp_header #tkp_date_weather{margin-bottom:5px;color:#666;height:20px;}
+.tkp_header a.a_newsApp{padding-left:15px;background-position:0 -1px;height:20px;color:#3366cc;}
+.tkp_header a.a_logined{width:36px;*width:41px;height:20px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-right:5px;*margin-right:0;}
+.tkp_header a.a_setHome{margin-left:40px;padding-left:18px;background-position:0 -41px;height:20px;color:#3366cc;}
+.tkp_header a.a_newsApp:hover,.tkp_header a.a_setHome:hover{color:#c90}
+.tkp_header a.a_newsApp:hover{background-position:0px -20px;}
+.tkp_header a.a_setHome:hover{background-position:0px -60px;}
+.tkp_header .searchBox .linkBox{width:235px;overflow:hidden;}
+.tkp_header .a_webLog{width:195px;text-align:right;height:20px;overflow: hidden;}
+.tkp_header .in_txt{width:170px;height:23px;border:solid 1px #cbcbcb;background:#fff;color:#bdbdbd;line-height:21px;padding:1px 0 1px 10px;float:left;margin-right:5px;overflow:hidden;font-size:12px}
+.tkp_header .button{width:48px;height:27px;line-height:27px;background:#f6f6f6;border:1px solid #cbcbcb;*border:0;*background:#ddd;*line-height:25px;color:#414141;font-size:12px;float:left;cursor:pointer;overflow:hidden}
+.tkp_header .button:hover{background-color:#036;color:#fff;}
+.tkp_nav{background-color:#369;height:42px;margin-bottom:15px}
+.tkp_nav .navList{position:relative}
+.tkp_nav li{float:left;font:14px/42px "宋体";height:42px;text-align:center;}
+.tkp_nav li a{color:#fff;display:block;padding:0 14px}
+.tkp_nav li.first a{font-weight:bold}
+.tkp_nav li a.nav_more{background:url('http://static.takungpao.com/images/haedFoot/icon_sprite.png') no-repeat;background-position:20px -88px;width:15px;height:42px;}
+.tkp_nav li a:hover{background-color:#4876a3;color:#fff}
+.tkp_nav dl{display:none;height:32px;width:auto;position:absolute;right:8px;_right:15px;bottom:-32px;z-index:99;background-color:#073d73}
+.tkp_nav dd{float:left;font:12px/32px "宋体";height:32px;text-align:center}
+.tkp_nav dd a{color:#fff;display:block;padding:0 14px}
+.tkp_nav dd a:hover{background-color:#1a4876;color:#fff}
+.pubTopNav{background:url('http://static.takungpao.com/images/haedFoot/topnavbg.jpg') repeat-x;color:#ccc;height:30px;overflow:hidden;}
+.pubTopNav li{float:left;background:url('http://static.takungpao.com/images/haedFoot/icon2.png') right center no-repeat;padding:0 10px;height:30px;line-height:30px;font:12px/30px "宋体";}
+.pubTopNav li.last{background:none !important;border:none !important;padding-right:0}
+.tkp_navWrap{height:38px;margin-bottom:10px;position:relative;z-index:999999998;}
+.tkp_navBox{top:0;width:100%;min-width:1000px;height:38px;background-color:#006ebb;text-align:center;z-index:999999999;font-family:"宋体";line-height:26px;}
+.tkp_navBox .navBox_l{position:relative;float:left;z-index:20;padding:0 10px 0 0;}
+.tkp_navBox ul{float:left;}
+.tkp_navBox li{float:left;background:url('http://static.takungpao.com/images/haedFoot/icon_sprite.png') no-repeat #006ebb;background-position:0 -113px;font-size:12px;}
+.tkp_navBox li.first{font-weight:bold}
+.tkp_navBox li a{display:block;padding:6px 13px;}
+.tkp_navBox .moreNav{position:relative;}
+.tkp_navBox .i_moreNav{display:block;padding-left:15px;background:url('http://static.takungpao.com/images/haedFoot/icon_sprite.png') no-repeat;background-position:-22px -97px}
+.tkp_navBox .i_moreNav_h,.tkp_navBox .i_moreNav:hover{background-position:-22px -59px}
+.tkp_navBox .navmenu{display:none;position:absolute;top:38px;right:-5px;background:#006ebb;text-align:center;width:74px;}
+.tkp_navBox .ul_app{margin-right:20px}
+.tkp_navBox .navBox_r li a{padding:6px 10px;}
+.tkp_navBox .navBox_r li.i_app,.tkp_navBox .navBox_r ul li.i_login{background:none;}
+.tkp_navBox .navBox_r li.i_app a{background:url('http://static.takungpao.com/images/haedFoot/icon_sprite.png') no-repeat;background-position:-85px 8px;padding-left:20px;}
+.tkp_navBox .navBox_r li.i_login a{background:url('http://static.takungpao.com/images/haedFoot/icon_sprite.png') no-repeat;background-position:-85px -18px;padding-left:20px;}
+.tkp_navBox li a,.tkp_navBox li a:hover,.tkp_navBox .navBox_r li.i_app a:hover,.tkp_navBox .navBox_r li.i_login a:hover{color:#feffff;_background-color:#006ebb}
+.tkp_navBox li a:hover,.tkp_navBox .navBox_r li.i_app a:hover,.tkp_navBox .navBox_r li.i_login a:hover{background-color:#005692}
+.btn-top,.btn_top{display:none;position:fixed;right:0px;bottom:120px;background:url('http://static.takungpao.com/images/sports/top.jpg') no-repeat center center;width:49px;height:49px;cursor:pointer;z-index:99999999999}
+.btn-top,.btn_top{_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));_margin-bottom:120px;}
+.btn_top{background:none;width:52px;height:52px}
+.icon_top{display:block;width:52px;height:52px;background:url('http://static.takungpao.com/images/haedFoot/gotop.png') no-repeat left top;background-position:0 0;text-indent:-99999em}
+.icon_top:hover{background-position:0 -52px;}
+.icon_top_n{display:block;width:52px;height:52px;background:url('http://static.takungpao.com/images/haedFoot/icon_sprite.png') no-repeat #dbdbdb;background-position:-61px -47px;text-indent:-99999em}
+.icon_top_n:hover{background-color:#d3e3f4;}
+.tkp_line{border-top:1px solid #ddd;height:0;overflow:hidden}
+.footer_line{border-top:1px solid #003366;border-bottom:1px solid #003366;height:0;overflow:hidden}
+.footerBox{text-align:center;height:42px;background-color:#efefef;border-bottom:1px solid #cecece;}
+.footerBox li{font:14px/42px "微软雅黑";float:left;height:42px;color:#333;}
+.footerBox li a{color:#333;display:block;padding:0 7.5px;_padding:0 7px;}
+.footerBox li.a_review.on{border-left:1px solid #cecece;border-right:1px solid #cecece}
+.footerCon{position: relative;}
+.reviewPosAbBox{position: absolute;top:-43px;right:0px;}
+.reviewPosBox{position: relative;}
+.reviewBox{display: none;width:190px;height:25px;border:1px solid #cecece;padding:10px;background-color:#f0efed;position: absolute;top:0px;right:10px;*right:32px;z-index:99}
+.reviewDate{background:url('http://static.takungpao.com/images/home/calendar.gif') no-repeat left center;font:14px/24px "微软雅黑";color:#333;width:30px;height:24px;line-height:24px;cursor:pointer;padding-left:20px;margin-right: 10px;}
+.reviewTime a{font:14px/24px "微软雅黑";color:#cdcdcb;padding:0 3px;background: none}
+#reviewTime_flag{background: url('../images/haedFoot/a_flag.jpg') no-repeat center top;width:30px;height:19px;overflow:hidden;margin-top:3px }
+#reviewTime_flag.on{background:url('../images/haedFoot/a_flag_on.jpg') no-repeat center top;}
+.reviewTime a.on{color:#333}
+.rev_Bd{background-color:#f0efed;_background:none;position: absolute;top:45px;_top:43px;right:11px;*right:33px;width:71px;height:3px;z-index: 100 }
+.copyright{padding:20px 0 30px 0;height:80px;font:12px/20px "宋体";text-align:center;color:#2b2b2b;}
+.copyright .p-cut{font:12px/22px "宋体";margin-top:10px}
+.copyright .cop_dg a{color:#2b2b2b}
+.copyright .cop_dg span,.footer .unit span{color:#666;margin:0 5px}
+.copyright .cop_dg a:hover,.footer .footNav .hd a:hover,.footer .placeBox a:hover,.footerBox li a:hover{color:#cc0000}
+.ad{overflow:hidden;}
+.ad img{display:block;background-color:#ddd}
+.ad_240_130{padding:30px 0 42px 0}
+.ad_680_70{padding:20px 0 27px 0}
+.ad_680_75{padding:10px 0 35px 0}
+.ad_680_100{margin-top:-5px}
+.ad_1000_75 img{width:1000px;height:75px}
+.ad_240_130 img{width:240px;height:130px}
+.ad_240_260 img{width:240px;height:260px}
+.ad_680_90 img{width:680px;height:90px}
+.ad_680_70 img{width:680px;height:70px}
+.ad_680_75 img{width:680px;height:75px}
+.ad_680_100 img{width:680px;height:100px}
+.ad_270_150,.ad_270_150 img{width:270px;height:150px}
+
+.pubTopNav .fl_dib .date{color:black;line-height:28px;font-size: 14px;font-family: PingFangSC-Regular,'微软雅黑',STXihei,Verdana,Calibri,Helvetica,Arial,sans-serif;color:#777272;}

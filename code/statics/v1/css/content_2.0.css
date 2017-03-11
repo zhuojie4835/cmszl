@@ -1,0 +1,127 @@
+/******************************************
+* 大公网新版文章页
+* ----------------------
+* 作者：文杰
+* 时间：2014-8-28
+* 准则：NEC
+* 联系：QQ1662484899
+* 创意源于生活，代码如诗从你我开始
+* OOCSS虽好，需培养，需规范，需慢慢品尝
+********************************************/
+@charset "utf-8";.container{padding:30px 0}
+.con_l{width:646px;_overflow:hidden;}.con_r{width:300px;_overflow:hidden;}
+.tpk_con_nav{width:646px;height:26px;padding-bottom:19px;border-bottom:1px solid #ddd;overflow:hidden;}
+.tpk_nav_logo{width:147px;height:26px;overflow:hidden;}
+.tpk_nav_logo img{display:block;width:100%;height:100%;}
+.tpk_nav_link{width:auto;height:14px;margin-top:12px}
+.tpk_nav_link span{color:#999;margin:0 8px}
+.tpk_con_tle{font:26px/38px "微软雅黑";color:#252525;margin:25px 0 10px 0}
+.tpk_article_info{height:28px;line-height:28px;color:#666;padding-bottom:15px;border-bottom:1px dotted #ddd}
+.article_info_l span{margin:0 10px;color:#999}
+.article_share{position:relative;margin-left:-10px;}
+.s_share{display:block;position:relative;width:85px;border:1px solid #fff;text-align:center;}
+.s_share em{border-color:#8B8C8E #FFFFFF #FFFFFF;border-style:solid;border-width:4px;font-size:0;width:0;height:0;line-height:0;position:absolute;right:7px;top:13px;}
+.s_share.on{border-color:#ddd;color:#c00;}
+.share_list{display:none;position:absolute;top:24px;left:0px;width:75px;height:90px;background-color:#fff;border:1px solid #ddd;border-top:0 none;padding:5px;z-index:9999}
+.share_list a{display:block;width:50px;height:24px;padding-left:25px;line-height:17px;background:url(http://static.takungpao.com/images/content/icon22.png) no-repeat;}
+.share_list a.s_weibo{background-position:0 0}
+.share_list a.s_qzone{background-position:0 -27px}
+.share_list a.s_qq{background-position:0 -54px}
+.share_list a.s_sina{background-position:0 -79px}
+.tpk_text{font:16px/30px "微软雅黑";color:#333}
+.tpk_text p{margin:20px 0 0 0}
+.tpk_text a:hover{text-decoration:underline}
+.tpk_page{text-align:center;margin:20px 0}
+.tpk_page a{line-height:24px;height:24px;color:#434343;padding:5px 8px;border:1px solid #ddd;margin-right:2px}
+.tpk_page a.a_txt{border:0 none}
+.tpk_page span{color:#999;padding:5px}
+.tpk_page span.page_disabled{border:1px solid #ddd;}
+.tpk_page span.page_now,.tpk_page span.page_disabled{padding:5px 8px}
+.tpk_page span.page_now,.tpk_page a:hover{background-color:#737373;border:1px solid #737373;color:#fff;}
+.tpk_page a.a_txt:hover{background-color:#fff;border:0 none;color:#c00;}
+.tkp_con_author{height:25px;font-size:14px;line-height:25px;color:#999;margin-bottom:45px}
+.tkp_con_author span{float:right}
+.tkp_con_like{height:27px;margin-bottom:45px}
+.con_like_l{width:335px}.con_like_r{width:155px;margin-top:2px}
+.con_like_l a{background:url('../images/haedFoot/i_cont_sprite.png') no-repeat;padding:0 33px;line-height:29px;height:27px;}
+.con_like_l a span{color:#999;}
+.con_like_l a.a_like{background-position:0 0}
+.con_like_l a.a_unlike{background-position:0 -65px}
+.con_like_l a.a_favorite{background-position:0 -135px}
+.con_like_l a.a_like:hover{background-position:0 -31px}
+.con_like_l a.a_unlike:hover{background-position:0 -98px}
+.con_like_l a.a_favorite:hover{background-position:0 -168px}
+.tkp_con_xg{font-size:14px;margin-bottom:30px}
+.con_xg_tle{width:646px;height:20px;line-height:20px;margin-bottom:10px;overflow:hidden;}
+.con_xg_tle span{font-weight:bold;}
+.con_xg_tle a{padding:2px 10px;color:#999;font-size:12px}
+.con_xg_tle a:hover{background-color:#e8af56;color:#fff;}
+.tkp_con_xg li{background:url('../images/haedFoot/i_cont_sprite.png') -28px -185px no-repeat;width:636px;height:28px;line-height:28px;padding-left:10px;overflow:hidden;}
+.tkp_con_xg li a{color:#333}
+.tkp_con_xg li span{color:#999;font-size:12px;padding-left:5px}
+.tkp_con_pl{padding:40px 0 20px 0}
+.tkp_con_sreach{width:300px;height:45px;}
+.tkp_con_sreach .seach{height:31px;font-size:12px;margin:3px 0 10px 0;float:right;display:inline;}
+.tkp_con_sreach .seachList{width:50px;height:23px;background:#F3F3F3;border:solid 1px #CBCBCB;font-size:14px;float:left;position:relative;text-indent:8px;}
+.tkp_con_sreach .seachList h3{margin-top:3px;height:23px;overflow:hidden;cursor:pointer;}
+.tkp_con_sreach .seachList ul{width:50px;background:white;border:solid 1px #DDD;line-height:25px;border-top:0;position:absolute;left:-1px;top:24px;cursor:pointer;}
+.tkp_con_sreach .seachList em{width:8px;height:6px;background:url(http://static.takungpao.com/images/content/icon08.png) no-repeat;position:absolute;right:4px;top:10px;}
+.tkp_con_sreach .seach input{width:170px;height:23px;border:solid 1px #CBCBCB;background:white;color:#BDBDBD;border-left:0;line-height:23px;padding-left:10px;float:left;}
+.tkp_con_sreach .seach .button{width:67px;height:25px;background:#E3E3E3;border:solid 1px #CBCBCB;border-left:0;color:#666;font-size:12px;float:left;cursor:pointer;overflow:hidden;padding-left:0px;}
+.tpk_con_title{height:30px;font:18px/30px "微软雅黑";margin:20px 0 15px 0;}
+.tpk_con_title a{color:#C90;}
+.tpk_con_list{overflow:hidden;}
+.tpk_con_list li{width:300px;height:95px;overflow:hidden;margin-bottom:20px}
+.list_l{width:130px;height:95px;overflow:hidden}.list_r{width:150px;}
+.tpk_con_list dl{width:110%}
+.tpk_con_list dd{width:140px;height:140px;overflow:hidden;margin-right:20px;float:left}
+.list_img{width:140px;height:95px;overflow:hidden;}
+.list_txt{font:14px/20px "微软雅黑";margin-top:5px}
+.tpk_con_list h5,.list_r{font:14px/21px "微软雅黑";}
+.tpk_con_list h5 a{color:#999;}
+.tpk_con_list h5 a:hover{color:#666;}
+.tpk_con_list h5 a.txt,.list_r a,.list_txt a{color:#333;}
+.tkp_con_xg li a:hover,.tpk_con_title a:hover,.tpk_con_list h5 a.txt:hover,.list_txt a:hover,.list_r a:hover{color:#c00;}
+.ad_1000_75{padding-top:10px}
+.ad_300_250{padding-top:5px}
+.ad_645_100 img{width:645px;height:99px;}
+.ad_645_150 img{width:645px;height:150px;}
+.ad_300_250 img{width:300px;height:250px;}
+.ad_con_645_100{width:645px;height:100px;}
+.ad_con_645_100 .fl_dib,.ad_con_645_100 .fl_dib img{width:390px;height:100px}
+.ad_con_645_100 .fr_dib,.ad_con_645_100 .fr_dib img{width:255px;height:100px}
+.tpk_con_ad{padding:20px 20px 0 0}
+.tpk_con_ad img{display:block;width:200px;height:300px;}
+/*文章列表页css 移植自老版本列表页 add by wwj 2014-9-5 15:19:09*/
+.container_list{padding-top:0}
+.location{height:40px;border-bottom:solid 1px #3f659c;line-height:40px;font-size:12px;}
+.page{height:30px;color:#717171;margin:10px 0;}
+.page a,.page span{border:solid 1px #b8b8b8;color:#717171;display:inline-block;padding:0 8px;line-height:24px;height:24px;margin:0 2px;border-radius:3px;}
+.page a:hover{background:#636363;border:solid 1px #575757;color:#fff;}
+.txtImgList{margin:0px 0px 10px;}
+.txtImgList .txtImgListeach{border-bottom:#f8f8f8 solid 1px;padding:8px 0px 15px 5px;margin-top:5px;}
+.txtImgList .current{background-color:#f8f8f8;}
+.txtImgList h3{font-family:"微软雅黑";color:#000;font-size:16px;height:26px;line-height:26px;margin-bottom:15px;}.txtImgList h3 a{color:#000}
+.txtImgList .txtImgBox .img{float:left;margin-right:18px;width:100px;height:75px;overflow:hidden;border:#e5e5e5 solid 1px}
+.txtImgList .txtImgBox .img img{width:100px;height:75px}
+.txtImgList .txtImgBox .info{float:left;width:520px;font-size:12px;line-height:26px;color:#000}
+.txtImgList .txtImgBox .info a{color:#2d374b}
+.txtImgList .txtImgBox .info .funcBox{color:#666;height:26px}
+.txtImgList .txtImgBox .info .funcBox span,.txtImgList .txtImgBox .info .funcBox a{float:left;margin:0px 5px}
+.txtImgList .txtImgBox .info .funcBox .time{color:#666;padding-right:5px}
+.txtImgList .txtImgBox .info .comment{display:inline-block}
+.txtImgList .txtImgBox .info .comment a{display:inline-block;background:url(http://static.takungpao.com/images/list/icon_com.png) no-repeat left center;padding-left:20px;}
+.txtImgList .txtImgBox .info .share{display:inline-block;width:16px;height:20px;vertical-align:middle}
+.m_txt_news ul{padding-bottom:26px;width:100%;overflow:hidden;}
+.m_txt_news li{height:26px;line-height:26px;float:left;width:100%;overflow:hidden;font-size:14px;}
+.m_txt_news li .a_time{float:right;}.m_txt_news li .a_title{float:left;}
+.txt_blod{font-weight:bold;}.m_txt_news li a{color:#333;}
+.txtImgList h3 a:hover,.txtImgList .txtImgBox .info a:hover,.m_txt_news li a:hover{color:#c00}
+
+/* 导航 */
+.nav_wrap{ width:100%;height:40px;margin-bottom:12px;background:#21469a;}
+.nav_wrap .nav{width:1000px;height:40px; margin:0 auto;}
+.nav_wrap .nav ul li{height:40px;line-height:40px;float:left;display:inline;}
+.nav_wrap .nav ul li a{	height:40px;line-height:40px;padding:0 30px;font-size:18px;font-family:Microsoft YaHei,tahoma,arial,\5b8b\4f53,sans-serif;color:#fff;float:left;}
+.nav_wrap .nav ul li a:hover{text-decoration:none;background:#2957c0;}
+.nav_wrap .nav ul li a.cur{background:#2957c0;}

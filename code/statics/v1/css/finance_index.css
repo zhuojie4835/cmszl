@@ -1,0 +1,250 @@
+@charset "utf-8";
+body{width:100%;height:100%;font-size:12px;color:#000;font-family: "\5B8B\4F53"; /* \5B8B\4F53 宋体编码 */ }
+h1,h2,h3,h4,h5,h5,strong{font-family: Microsoft YaHei, tahoma, arial, \5b8b\4f53, sans-serif;}
+ul,li{ list-style:none;}
+
+/* 导航 */
+.nav_wrap{ width:100%;height:40px;margin-bottom:12px;background:#21469a;}
+.nav_wrap .nav{width:1000px;height:40px; margin:0 auto;}
+.nav_wrap .nav ul li{height:40px;line-height:40px;float:left;display:inline;}
+.nav_wrap .nav ul li a{	height:40px;line-height:40px;padding:0 30px;font-size:18px;font-family:Microsoft YaHei,tahoma,arial,\5b8b\4f53,sans-serif;color:#fff;float:left;}
+.nav_wrap .nav ul li a:hover{text-decoration:none;background:#2957c0;}
+.nav_wrap .nav ul li a.cur{background:#2957c0;}
+
+/*包裹*/
+.wrapper{ width:1000px; height:auto; margin:0 auto;}
+.wrapper .wrapper_l{ width:680px; height:auto; float:left;}
+.wrapper .wrapper_r{ width:285px; height:auto; float:right;}
+.copyright{padding:20px 0 30px 0;height:80px;font:12px/20px arial,"宋体";text-align:center;color:#2b2b2b;}
+.copyright .p-cut{font:12px/22px arial;margin-top:10px}
+
+/*滚动新闻*/
+#scrollNewTxt_yy {width:998px;height:40px; border:1px solid #ccc; font-size:12px;font-family:Microsoft YaHei,arial; margin:0 auto 20px;}
+#scrollNewTxt_yy .icon {width:95px; height:40px; line-height:40px; border-right: 1px solid #ccc; text-align:center; font-size:18px; font-family:Microsoft YaHei; color:#21469a;float:left;}
+#scrollNewTxt_yy .icon a{color:#21469a;}
+#scrollNewTxt_yy .icon a:hover{color:#2957c0;}
+#scrollNewTxt_yy .scrollTxt {width:902px;height:40px;float:left;}
+#scrollNewTxt_yy .scrollTxt .txtList {width:850px;height:40px;line-height:40px;overflow:hidden; position:relative; margin-left:5px;float:left;}
+#scrollNewTxt_yy .scrollTxt .txtList ul{width:100%;height:40px;}
+#scrollNewTxt_yy .scrollTxt .txtList li {color: #999; float:left; margin: 0 10px 0 5px; height:40px; line-height:40px;}
+#scrollNewTxt_yy .scrollTxt .txtList li a{ color:#333}
+#scrollNewTxt_yy .scrollTxt .txtList li a:hover{ color:#21469a;}
+#scrollNewTxt_yy .scrollTxt .txtList li .time{padding-left:6px;}
+#scrollNewTxt_yy .scrollTxt .btnBox {width:42px;height: 40px;float:right;}
+#scrollNewTxt_yy .scrollTxt .arrowL2 { background: url(http://static.takungpao.com/images/finance/layout.png) 6px 12px no-repeat;cursor:pointer; width:21px; height:40px;float:left;}
+#scrollNewTxt_yy .scrollTxt .arrowR2 { background: url(http://static.takungpao.com/images/finance/layout.png) -22px 12px no-repeat;cursor:pointer; width:21px; height:40px;float:left;}
+
+/*新闻头条*/
+.news_headline{width:1000px;height:290px; margin:20px auto;}
+.news_headline .news_txt{width:420px;height:285px; float:left;}
+.news_headline .news_txt h1{ height:32px; line-height:24px; font-size:24px;font-family:Microsoft YaHei,arial; overflow:hidden; color:#0e1e41;}
+.news_headline .news_txt h1 a{ color:#0e1e41;}
+.news_headline .news_txt h1 a:hover{ color:#c00;}
+.news_headline .news_txt h4{ height:auto; max-height:44px; line-height:22px; padding:8px 0 4px; font-size:12px;font-family:Microsoft YaHei,arial; color:#666; overflow:hidden;}
+.news_headline .news_txt ul{width:100%;height:auto;}
+.news_headline .news_txt ul li{height:30px; line-height:30px; padding:5px 0; font-size:18px;font-family:Microsoft YaHei,arial; overflow:hidden;}
+.news_headline .news_txt ul li a{height:30px; line-height:30px; font-size:18px;font-family:Microsoft YaHei,arial;}
+.news_headline .news_pic{width:560px;height:285px; float:right;}
+
+/*焦点图*/
+#news_pic{width:560px;height:285px; position:relative;}
+#news_pic .changeDiv{height:285px;position:absolute;top:0px;left:0px;display:none;overflow:hidden;}
+#news_pic .changeDiv .tit{margin:0;padding:0;position:absolute;left:0;bottom:0;width:560px;height:30px;line-height:30px;font-size:14px;overflow:hidden;background:#000;filter:alpha(opacity=70);opacity:0.7;}
+#news_pic .changeDiv h3{width:460px;height:30px;line-height:30px;overflow:hidden; text-align:left; padding-left:15px; position: absolute; left:0; bottom:0; z-index:99;}
+#news_pic .changeDiv h3 a{color:#fff;font-size:14px;font-family:Microsoft YaHei,arial;}
+#news_pic .changeDiv img{width:560px;height:285px; border:none;display:block;}
+#news_pic .change_liu{position:absolute;right:15px;bottom:10px;overflow:hidden;}
+#news_pic .change_liu li{display:inline;float:left;}
+#news_pic .change_liu span,#news_pic .change_liu span.on{ background-image:url(http://static.takungpao.com/images/finance/layout.png); background-repeat:no-repeat;}
+#news_pic .change_liu span{display:block;width:10px;height:10px;font-size:0;line-height:0;margin-right:5px;background-position:0 -35px;cursor:pointer;}
+#news_pic .change_liu span.on{background-position:-20px -35px;color:#c00;}
+
+/*阅读滚动*/
+.scroll_web_wrap{width:680px; height:auto;}
+.left_right_arrow{height:21px; padding:12px 0 25px; border-top:2px solid #efefef;}
+.left_right_arrow h3{ font-size:22px; font-family:Microsoft YaHei,arial; float:left;}
+.left_right_arrow .prev,.left_right_arrow .next{display:block;width:21px;height:21px;line-height:21px;text-align: center;overflow: hidden;float:right;cursor:pointer;font-size:14px;background:#fff url(http://static.takungpao.com/images/finance/layout.png) -50px 0 no-repeat;text-indent:-9999px;margin-left:6px;}
+.left_right_arrow .next{background-position:-80px 0;}
+.scroll_web{width:680px;}
+.scroll_web ul li{display: inline;float: left;}
+.scroll_web ul li a{float: left;margin-right: 20px;width:155px;}
+.scroll_web ul li a:hover{text-decoration: none;}
+.scroll_web ul li a strong{line-height:20px;padding-top:6px;display:block;font-weight:normal;font-family:Microsoft YaHei,arial;color:#000; text-align:center;}
+.scroll_web ul li a img{width:155px;height:140px;}
+
+/*热点推荐*/
+.hot_tj{width:678px; height:32px; border:1px solid #e0e0e0; margin:20px 0;}
+.hot_tj h3{width:82px; height:32px; line-height:30px; padding-left:8px; font-size:18px; float:left;}
+.hot_tj ul{width:588px; height:32px; font-size:14px; float:left; overflow:hidden;}
+.hot_tj ul li{height:32px; line-height:30px; font-size:14px; color:#666; margin:0 10px; float:left;}
+.hot_tj ul li a{font-size:14px; font-family:Microsoft YaHei,arial; color:#666;}
+
+/*左侧新闻列表*/
+.news_list{width:680px; height:auto; margin-top:20px;}
+.news_list h3{ height:40px; border-bottom:2px solid #efefef; font-size:22px; color:#21469a;}
+.news_list h3 a{color:#21469a;}
+.news_list h3 a:hover{color:#c00;}
+.news_list h3 span{float:right;*margin-top:-15px;}
+.news_list h3 span a{ font-size:12px;color:#999;}
+.news_list h3 span a:hover{color:#999;}
+.news_list .list{ width:100%; height:auto; padding-top:20px; position:relative;}
+.news_list .list .pic{width:155px; height:95px; padding-right:20px; float:left;}
+.news_list .list .pic img{width:155px; height:95px; display:block; border:none;}
+.news_list .list .text{width:410px; height:auto; float:left;}
+.news_list .list .text li{ height:auto; line-height:20px;font-size:12px; font-family:Microsoft YaHei,arial; color:#333;}
+.news_list .list .text .title{height:28px; font-size:18px;}
+.news_list .list .count{ position:absolute; right:0; top:20px;}
+.news_list .list .count li{ margin-left:10px;float:right;}
+.news_list .list .count .num_pl{ line-height:14px; padding-left:18px; font-size:12px; font-family:arial; color:#666;background:url(http://static.takungpao.com/images/finance/layout.png) -289px -38px no-repeat; float:left;}
+.news_list .list2{ width:100%; height:165px; padding-top:20px;}
+.news_list .list2 .pic{width:220px; height:165px; padding-right:20px; float:left;}
+.news_list .list2 .pic img{width:220px; height:165px; display:block; border:none;}
+.news_list .list2 .text{width:350px; height:auto; float:left;}
+.news_list .list2 .text li{ height:20px; line-height:20px; margin-bottom:15px;font-size:12px; font-family:Microsoft YaHei,arial; color:#666; overflow:hidden;}
+.news_list .list2 .text .title{height:24px; margin:0; font-size:16px; color:#333; overflow:visible; position:relative;}
+.news_list .list2 .count{ position:absolute; right:-90px; top:2px;}
+.news_list .list2 .count li{ margin-left:10px;float:right;}
+.news_list .list2 .count .num_pl{ line-height:14px; padding-left:18px; font-size:12px; font-family:arial; color:#666;background:url(http://static.takungpao.com/images/finance/layout.png) -289px -38px no-repeat; float:left;}
+.news_list .list3{ width:720px; height:200px; padding-top:20px; margin-left:-20px;}
+.news_list .list3 li{width:200px; height:200px; margin:0 20px; overflow:hidden; display:inline; float:left;}
+.news_list .list3 li img{width:200px; height:150px; display:block; border:none;}
+.news_list .list3 li span{height:30px; line-height:30px; display:block; font-size:14px; font-family:Microsoft YaHei,arial; color:#666; text-align:center;}
+
+/*扫描二维码*/
+.qr_scan{width:595px; height:70px; padding-left:95px; background:#f6f6f6; margin-top:20px; position:relative;}
+.qr_scan .qr_code{ position:absolute; left:0; bottom:0;}
+.qr_scan .tishi{width:250px; height:60px; padding-top:8px; float:left;}
+.qr_scan .tishi li{ line-height:28px; font-size:14px; font-family:Microsoft YaHei,arial; color:#333;}
+.qr_scan .tishi li.gold{ font-size:16px; color:#c8a063;}
+.qr_scan .tishi li.gold span{ padding:0 2px;}
+.qr_scan .link{width:340px; height:30px; line-height:30px; padding:20px 0; float:left;}
+.qr_scan .link a{ font-size:16px;font-family:Microsoft YaHei,arial;color:#969696; margin-right:25px; display:inline; float:left;}
+.qr_scan .link a:hover{color:#c00;}
+
+/*高端访谈*/
+.fangtan{width:100%;height:auto;}
+.fangtan h3{height:30px; line-height:20px; padding-bottom:20px; font-size:22px;font-family:Microsoft YaHei,arial; color:#21469a;}
+.fangtan h3 a{font-size:22px;font-family:Microsoft YaHei,arial;color:#21469a;}
+.fangtan h3 a:hover{color:#c00;}
+.fangtan .video{width:285px;height:200px; display:block; overflow:hidden; position:relative;}
+.fangtan .video img{width:285px;height:200px; display:block; border:none;}
+.fangtan .video span{width:285px; height:30px; line-height:30px; display:block; background:url(../images/finance/bg_white.png) repeat; font-size:14px;font-family:Microsoft YaHei,arial; position:absolute; left:0; bottom:0; overflow:hidden;}
+.fangtan .video span em{width:34px; height:30px; background:#21469a url(http://static.takungpao.com/images/finance/layout.png) -275px -62px no-repeat; float:left; margin-right:6px;}
+.fangtan .video:hover em{background:#2957c0 url(http://static.takungpao.com/images/finance/layout.png) -275px -62px no-repeat;}
+.fangtan ul{width:100%; height:auto; padding:10px 0;}
+.fangtan ul li{height:30px; line-height:30px; font-size:12px;font-family:Microsoft YaHei,arial; vertical-align:top;}
+.fangtan ul li a{ padding-left:28px; background:url(http://static.takungpao.com/images/finance/layout.png) -280px 5px no-repeat; font-size:12px;font-family:Microsoft YaHei,arial; float:left;}
+
+/*右侧独家*/
+.dujia_right{width:100%; height:auto; padding:10px 0 20px;}
+.dujia_right h3{height:30px; font-size:22px;font-family:Microsoft YaHei,arial; color:#21469a;}
+.dujia_right h3 a{font-size:22px;font-family:Microsoft YaHei,arial;color:#21469a;}
+.dujia_right h3 a:hover{color:#c00;}
+.dujia_right ul{width:100%; height:auto;}
+.dujia_right ul li{height:85px; padding-top:20px; vertical-align:top; overflow:hidden;}
+.dujia_right ul li .pic{width:110px; height:85px; display:inline-block; margin-right:18px; float:left;}
+.dujia_right ul li h4{ height:26px; line-height:24px; font-size:16px; font-family:Microsoft YaHei,arial,"黑体"; color:#c8a063; margin-top:-5px; }
+.dujia_right ul li h4 a{font-family:Microsoft YaHei,arial,"黑体"; color:#c8a063; font-weight:600;}
+.dujia_right ul li h4 a:hover{color:#c00;}
+.dujia_right ul li p{ height:auto; line-height:20px; font-size:12px; font-family:Microsoft YaHei,arial; color:#666;}
+.dujia_right ul li p a{ font-size:12px;font-family:Microsoft YaHei,arial; color:#666;}
+.dujia_right ul li p a:hover{color:#c00;}
+
+/*会议活动*/
+.meeting_hd{width:100%; height:auto; padding:15px 0 20px;}
+.meeting_hd h3{height:30px; font-size:22px;font-family:Microsoft YaHei,arial; color:#21469a;}
+.meeting_hd h3 a{font-size:22px;font-family:Microsoft YaHei,arial;color:#21469a;}
+.meeting_hd h3 a:hover{color:#c00;}
+.meeting_hd ul{width:100%; height:auto;}
+.meeting_hd ul li{height:85px; padding-top:20px; vertical-align:top; overflow:hidden;}
+.meeting_hd ul li .pic{width:110px; height:85px; display:inline-block; margin-right:18px; float:left;}
+.meeting_hd ul li h4{ height:auto; line-height:24px; font-size:16px; font-family:Microsoft YaHei,arial; color:#2c3a59; margin-top:-5px;}
+.meeting_hd ul li h4 a{font-family:Microsoft YaHei,arial; color:#2c3a59;}
+.meeting_hd ul li h4 a:hover{color:#c00;}
+.meeting_hd ul li p{ height:20px; line-height:20px; font-size:12px; font-family:Microsoft YaHei,arial; color:#666;}
+
+/*热度排行*/
+.paihang_hot{width:100%; height:330px; background:#f5f5f5; margin:30px 0;}
+.paihang_hot .hot_tabs{height:42px; border-top:2px solid #939393;}
+.paihang_hot .hot_tabs li{width:106px; height:28px; line-height:28px; padding-top:12px; float:left; margin-top:-2px; font-size:18px; font-family:Microsoft YaHei,arial; color:#666; text-align:center; cursor:pointer;}
+.paihang_hot .hot_tabs li.on{color:#b21a02;background:url(http://static.takungpao.com/images/finance/layout.png) -135px 0 no-repeat;}
+.paihang_hot .hot_tabs li span{width:1px; height:12px; line-height:12px; border-right:1px solid #999; margin-top:10px;float:right;*margin-top:-18px;}
+.paihang_hot .hot_list{ padding:0 18px 15px; display:none;}
+.paihang_hot .hot_list.show{ display:block;}
+.paihang_hot .hot_list li{height:20px; line-height:20px; padding:8px 0 5px; font-size:12px; font-family:Microsoft YaHei,arial; color:#666; overflow:hidden;}
+.paihang_hot .hot_list li a{font-size:12px; font-family:Microsoft YaHei,arial; color:#666;}
+.paihang_hot .hot_list li a:hover{ color:#c00;}
+.paihang_hot .hot_list li span{width:18px; height:18px; line-height:18px; border:1px solid #c7c7c7; color:#666; text-align:center; margin-right:8px; float:left; border-radius:2px;}
+.paihang_hot .hot_list li span.top{ color:#fff; background:#d30013; border-color:#d30013;}
+
+/*调查问卷*/
+.vote_right{width:100%; height:auto; padding:15px 0;}
+.vote_right h3{height:auto; line-height:24px; font-size:22px;font-family:Microsoft YaHei,arial; color:#c9a063;}
+.vote_right h3 span{font-size:16px;font-family:Microsoft YaHei,arial;color:#21469a;}
+.vote_right .content{width:100%; height:auto;}
+.vote_right .content li{height:30px; line-height:30px; padding-top:10px; font-size:14px;font-family:Microsoft YaHei,arial; color:#666; vertical-align:top; overflow:hidden;}
+.vote_right .content .radio{ padding-top:5px;}
+.vote_right .content .radio a{ padding-left:18px; margin:0 12px; color:#666; background:url(http://static.takungpao.com/images/finance/layout.png) -286px -92px no-repeat; float:left;-webkit-transition:all 0s ease-in-out 0s;-o-transition:all 0s ease-in-out 0s;-moz-transition:all 0s ease-in-out 0s;-ms-transition:all 0s ease-in-out 0s;transition:all 0s ease-in-out 0s;}
+.vote_right .content .radio a.checked{color:#666; background-position:-286px -122px;}
+.vote_right .tijiao{height:28px; line-height:28px; padding-top:15px; text-align:center;}
+.vote_right .tijiao .save{width:44px; height:28px; border:none; background:#21469a; margin-right:10px; font-size:14px;font-family:Microsoft YaHei,arial; color:#fff; text-align:center; cursor: pointer; outline:none;}
+.vote_right .tijiao .save:hover{ background:#2957c0;}
+.vote_right .tijiao a{ font-size:14px; font-family:Microsoft YaHei,arial; color:#666;}
+.vote_right .tijiao a:hover{color:#c00;}
+
+/*互动专区*/
+.hudongzhuanqu{width:100%; height:auto; padding-bottom:15px;}
+.hudongzhuanqu h3{height:30px; line-height:24px; font-size:22px;font-family:Microsoft YaHei,arial; color:#21469a;}
+.hudongzhuanqu h3 a{font-size:22px;font-family:Microsoft YaHei,arial;color:#21469a;}
+.hudongzhuanqu h3 a:hover{color:#c00;}
+.hudongzhuanqu .list{ padding-top:10px;}
+.hudongzhuanqu .list .pic{width:45px; height:45px; padding-top:5px; padding-right:10px; float:left;}
+.hudongzhuanqu .list .pic img{width:45px; height:45px; border:none; border-radius:50%;}
+.hudongzhuanqu .list .content{width:230px; height:auto; padding-bottom:8px; float:left;}
+.hudongzhuanqu .list .content .name{height:20px; line-height:20px; padding-bottom:5px; font-size:12px;font-family:Microsoft YaHei,arial; color:#999; overflow:hidden;}
+.hudongzhuanqu .list .content .name span{color:#21469a; margin-right:10px;}
+.hudongzhuanqu .list .content .txt{height:auto; line-height:18px; padding-bottom:5px; font-size:12px;font-family:Microsoft YaHei,arial; color:#666;}
+.hudongzhuanqu .list .content .count{height:24px; line-height:24px; font-size:12px;font-family:Microsoft YaHei,arial; color:#999;}
+.hudongzhuanqu .list .content .count .zan{ padding-left:22px; background:url(http://static.takungpao.com/images/finance/layout.png) -283px -159px no-repeat; margin-right:15px; display:inline; float:left;}
+.hudongzhuanqu .list .content .count .btn_huifu{ padding-left:25px; background:url(http://static.takungpao.com/images/finance/layout.png) -279px -196px no-repeat; color:#999; float:left;}
+.hudongzhuanqu .list .content .count .btn_huifu:hover{background-position:-279px -226px;}
+.hudongzhuanqu .list .content .count .btn_huifu.on{ background-position:-279px -226px;}
+.hudongzhuanqu .list .list_sub{width:100%; height:auto; padding:8px 0; border-top:1px dotted #7f7f7f; clear:both; display:none;}
+.hudongzhuanqu .list .list_sub .huifu{width:100%; height:auto;}
+.hudongzhuanqu .list .list_sub .huifu li{width:100%; height:auto; padding:8px 0;}
+.hudongzhuanqu .list .list_sub .huifu li .pic_sub{width:45px; height:45px; margin-right:10px; border:none; border-radius:50%; display:inline; float:left;}
+.hudongzhuanqu .list .list_sub .huifu li .txt_sub{width:230px; height:auto; line-height:18px; padding-bottom:5px; font-size:12px;font-family:Microsoft YaHei,arial; color:#666; float:left;}
+.hudongzhuanqu .list .list_sub .tijiao{width:100%; height:120px;}
+.hudongzhuanqu .list .list_sub .tijiao .textarea{width:279px; height:70px; line-height:18px; border:1px solid #e0e0e0; padding:2px 0 0 4px; margin:10px 0;font-size:12px;font-family:Microsoft YaHei,arial; color:#333; overflow-y:auto;resize:none; outline:none;}
+.hudongzhuanqu .list .list_sub .tijiao .save{width:44px; height:28px; border:none; background:#21469a; margin-right:10px; font-size:14px;font-family:Microsoft YaHei,arial; color:#fff; text-align:center; cursor: pointer; outline:none; float:right;}
+.hudongzhuanqu .list .list_sub .tijiao .save:hover{ background:#2957c0;}
+
+/*投稿专区*/
+.tougao{width:auto; height:auto; padding-left:25px;}
+.tougao h3{height:56px;}
+.tougao h3 .txt{width:80px;height:56px; line-height:56px; display:inline-block; margin-right:22px; background:url(http://static.takungpao.com/images/finance/layout.png) 0 -60px no-repeat; font-size:24px;font-family:Microsoft YaHei,arial; color:#fff; text-align:center; float:left; position:relative;}
+.tougao h3 .txt em{line-height:20px;font-size:12px;font-family:Microsoft YaHei,arial; color:#666; white-space:nowrap; position:absolute; left:0; bottom:-22px; display:none;}
+.tougao h3 .txt:hover em{display:block;}
+.tougao h3 .weibo{width:56px;height:56px; line-height:56px; display:inline-block; margin-right:22px; background:url(http://static.takungpao.com/images/finance/layout.png) -90px -60px no-repeat; text-indent:-9999px; float:left;}
+.tougao h3 .weixin{width:56px;height:56px; line-height:56px; display:inline-block; background:url(http://static.takungpao.com/images/finance/layout.png) -155px -60px no-repeat; float:left; position:relative;}
+.tougao h3 .weixin img{ position:absolute; top:0; right:-85px; display:none;}
+.tougao h3 .weixin:hover img{ display:block;}
+.tougao p{height:30px; line-height:30px; padding-top:15px; font-size:16px;font-family:Microsoft YaHei,arial; color:#666;}
+.tougao p span{ font-size:18px;}
+
+/*友情链接*/
+.friendlylink{width:1000px; height:auto; margin:30px auto;}
+.friendlylink h3{height:36px; line-height:36px; border-bottom:2px solid #21469a; font-size:22px;font-family:Microsoft YaHei,arial; color:#21469a;}
+.friendlylink h3 a{font-size:22px;font-family:Microsoft YaHei,arial;color:#21469a;}
+.friendlylink h3 a:hover{color:#c00;}
+.friendlylink ul{width:100%; height:auto; padding-top:15px; line-height:24px;font-size:14px;font-family:Microsoft YaHei,arial; color:#666;}
+.friendlylink ul a{font-size:14px;font-family:Microsoft YaHei,arial; color:#666; margin:0 15px 0 8px;}
+.friendlylink ul a:hover{color:#c00;}
+
+/*ad*/
+.ad_1000_75{width:1000px;height:75px; margin:10px auto; overflow:hidden;}
+.ad_1000_75 img{width:1000px;height:75px; border:none;}
+.ad_680_75{width:680px;height:75px; padding:0;overflow:hidden;}
+.ad_680_75 img{width:680px;height:75px; border:none;}
+.ad_285_235{width:285px;height:235px; padding:0; margin:15px 0;overflow:hidden;}
+.ad_285_235 img{width:285px;height:235px; border:none;}
