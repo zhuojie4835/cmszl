@@ -5,3 +5,5 @@ http://bbs.tianya.cn/post-333-1118334-1.shtml
 http://www.bilibili.com/mobile/video/av5594535.html 台湾
 
 http://www.guancha.cn/Celebrity/2017_03_09_397892.shtml 笑话
+
+http://stackoverflow.com/questions/10896749/what-does-function-function-window-jquery-do  技术js
