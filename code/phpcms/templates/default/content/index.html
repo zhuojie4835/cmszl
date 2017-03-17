@@ -140,8 +140,59 @@ color: #21469a;}
     <div class="wrapper_l">
         <!--开始-->
         <div class="news_list">
-            {pc:content action="lists" catid="9" num="5" order="id DESC" return="info"}
+            {pc:content action="lists" catid="7" num="5" order="id DESC" return="info"}
                 <h3><a href="#" target="_blank" title="国内">国内</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
+                {loop $info $v}
+                    <div class="list clearfix">
+                    <ul class="pic">
+                        <a href="{$v['url']}" target="_blank"><img src="{thumb($v[thumb],155,95)}" height="95" width="155" border="0"></a>
+                    </ul>
+                    <ul class="text" style="width:425px;">
+                        <li class="title"><a href="{$v['url']}" target="_blank">{$v['title']}</a></li>
+                        <li>{str_cut($v['description'],300)}</li>
+                    </ul>
+                </div>
+                {/loop}
+                
+            {/pc}                    
+        </div>
+        <div class="news_list">
+            {pc:content action="lists" catid="13" num="5" order="id DESC" return="info"}
+                <h3><a href="#" target="_blank" title="国内">历史</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
+                {loop $info $v}
+                    <div class="list clearfix">
+                    <ul class="pic">
+                        <a href="{$v['url']}" target="_blank"><img src="{thumb($v[thumb],155,95)}" height="95" width="155" border="0"></a>
+                    </ul>
+                    <ul class="text" style="width:425px;">
+                        <li class="title"><a href="{$v['url']}" target="_blank">{$v['title']}</a></li>
+                        <li>{str_cut($v['description'],300)}</li>
+                    </ul>
+                </div>
+                {/loop}
+                
+            {/pc}                    
+        </div>
+        <div class="news_list">
+            {pc:content action="lists" catid="11" num="5" order="id DESC" return="info"}
+                <h3><a href="#" target="_blank" title="国内">娱乐</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
+                {loop $info $v}
+                    <div class="list clearfix">
+                    <ul class="pic">
+                        <a href="{$v['url']}" target="_blank"><img src="{thumb($v[thumb],155,95)}" height="95" width="155" border="0"></a>
+                    </ul>
+                    <ul class="text" style="width:425px;">
+                        <li class="title"><a href="{$v['url']}" target="_blank">{$v['title']}</a></li>
+                        <li>{str_cut($v['description'],300)}</li>
+                    </ul>
+                </div>
+                {/loop}
+                
+            {/pc}                    
+        </div>
+        <div class="news_list">
+            {pc:content action="lists" catid="8" num="5" order="id DESC" return="info"}
+                <h3><a href="#" target="_blank" title="国内">呵呵</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
                 {loop $info $v}
                     <div class="list clearfix">
                     <ul class="pic">
