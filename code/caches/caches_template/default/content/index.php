@@ -140,8 +140,59 @@ color: #21469a;}
     <div class="wrapper_l">
         <!--开始-->
         <div class="news_list">
-            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=8e6e6ed7870372bbef4f0d774861d9e9&action=lists&catid=9&num=5&order=id+DESC&return=info\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$info = $content_tag->lists(array('catid'=>'9','order'=>'id DESC','limit'=>'5',));}?>
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=80f3aa42418fe76506c7d8735d402af5&action=lists&catid=7&num=5&order=id+DESC&return=info\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$info = $content_tag->lists(array('catid'=>'7','order'=>'id DESC','limit'=>'5',));}?>
                 <h3><a href="#" target="_blank" title="国内">国内</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
+                <?php $n=1;if(is_array($info)) foreach($info AS $v) { ?>
+                    <div class="list clearfix">
+                    <ul class="pic">
+                        <a href="<?php echo $v['url'];?>" target="_blank"><img src="<?php echo thumb($v[thumb],155,95);?>" height="95" width="155" border="0"></a>
+                    </ul>
+                    <ul class="text" style="width:425px;">
+                        <li class="title"><a href="<?php echo $v['url'];?>" target="_blank"><?php echo $v['title'];?></a></li>
+                        <li><?php echo str_cut($v['description'],300);?></li>
+                    </ul>
+                </div>
+                <?php $n++;}unset($n); ?>
+                
+            <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>                    
+        </div>
+        <div class="news_list">
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=21f4fad4f30e20ba819e214e9b15cf6f&action=lists&catid=13&num=5&order=id+DESC&return=info\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$info = $content_tag->lists(array('catid'=>'13','order'=>'id DESC','limit'=>'5',));}?>
+                <h3><a href="#" target="_blank" title="国内">历史</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
+                <?php $n=1;if(is_array($info)) foreach($info AS $v) { ?>
+                    <div class="list clearfix">
+                    <ul class="pic">
+                        <a href="<?php echo $v['url'];?>" target="_blank"><img src="<?php echo thumb($v[thumb],155,95);?>" height="95" width="155" border="0"></a>
+                    </ul>
+                    <ul class="text" style="width:425px;">
+                        <li class="title"><a href="<?php echo $v['url'];?>" target="_blank"><?php echo $v['title'];?></a></li>
+                        <li><?php echo str_cut($v['description'],300);?></li>
+                    </ul>
+                </div>
+                <?php $n++;}unset($n); ?>
+                
+            <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>                    
+        </div>
+        <div class="news_list">
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=f9ce2710eee57c52d5a7b0538d300250&action=lists&catid=11&num=5&order=id+DESC&return=info\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$info = $content_tag->lists(array('catid'=>'11','order'=>'id DESC','limit'=>'5',));}?>
+                <h3><a href="#" target="_blank" title="国内">娱乐</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
+                <?php $n=1;if(is_array($info)) foreach($info AS $v) { ?>
+                    <div class="list clearfix">
+                    <ul class="pic">
+                        <a href="<?php echo $v['url'];?>" target="_blank"><img src="<?php echo thumb($v[thumb],155,95);?>" height="95" width="155" border="0"></a>
+                    </ul>
+                    <ul class="text" style="width:425px;">
+                        <li class="title"><a href="<?php echo $v['url'];?>" target="_blank"><?php echo $v['title'];?></a></li>
+                        <li><?php echo str_cut($v['description'],300);?></li>
+                    </ul>
+                </div>
+                <?php $n++;}unset($n); ?>
+                
+            <?php if(defined('IN_ADMIN') && !defined('HTML')) {echo '</div>';}?>                    
+        </div>
+        <div class="news_list">
+            <?php if(defined('IN_ADMIN')  && !defined('HTML')) {echo "<div class=\"admin_piao\" pc_action=\"content\" data=\"op=content&tag_md5=858d74efac80d95eba60c675fb4c495c&action=lists&catid=8&num=5&order=id+DESC&return=info\"><a href=\"javascript:void(0)\" class=\"admin_piao_edit\">编辑</a>";}$content_tag = pc_base::load_app_class("content_tag", "content");if (method_exists($content_tag, 'lists')) {$info = $content_tag->lists(array('catid'=>'8','order'=>'id DESC','limit'=>'5',));}?>
+                <h3><a href="#" target="_blank" title="国内">呵呵</a><span><a href="#" target="_blank" title="更多">更多</a></span></h3>
                 <?php $n=1;if(is_array($info)) foreach($info AS $v) { ?>
                     <div class="list clearfix">
                     <ul class="pic">
