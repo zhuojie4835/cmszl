@@ -35,3 +35,11 @@ http://www.guancha.cn/military-affairs/2017_03_22_399888.shtml  台船号称自�
 	<span style="font: 16px/28px Microsoft YaHei;">&nbsp; &nbsp;</span><br/>
 <div>
 
+
+文字
+<p style="vertical-align: baseline; font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; padding: 0px; margin: 0px 0px 28px; border: 0px; font-stretch: normal; line-height: 28px; text-align: justify; text-indent: 2em;"></p>
+
+图片
+<p class="detailPic" style="vertical-align: baseline; font-family: &quot;Microsoft YaHei&quot;; font-size: 16px; padding: 0px; margin: 0px 0px 28px; border: 0px; font-stretch: normal; line-height: 28px; text-align: justify; text-indent: 2em;"><img alt="" height="310" src="图片url" style="vertical-align: baseline; font-weight: inherit; font-family: SimSun, Arial; font-style: inherit; padding: 0px; margin: 0px auto; border: 0px; display: block; max-width: 640px; height: auto;" width="560" /></p>
+<p class="picIntro" style="vertical-align: baseline; text-align:center;font-family: &quot;Microsoft YaHei&quot;; font-size: 14px; padding: 0px; margin: 10px 0px 28px; border: 0px; font-stretch: normal; line-height: 24px; color: rgb(102, 102, 102);"><span style="vertical-align: baseline; padding: 0px; margin: 0px; border: 0px; font-stretch: normal; line-height: 24px;">图片文字</span></p>
+
