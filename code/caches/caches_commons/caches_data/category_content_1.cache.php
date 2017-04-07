@@ -16,7 +16,7 @@ return array (
     'description' => '',
     'parentdir' => '',
     'catdir' => 'about',
-    'url' => 'http://www.vw87china.com/html/about/',
+    'url' => 'http://phpcms.local/a/about/',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -59,7 +59,7 @@ return array (
     'description' => '',
     'parentdir' => 'about/',
     'catdir' => 'aboutus',
-    'url' => 'http://www.vw87china.com/html/about/aboutus/',
+    'url' => 'http://phpcms.local/a/about/aboutus/',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -102,7 +102,7 @@ return array (
     'description' => '',
     'parentdir' => 'about/',
     'catdir' => 'contactus',
-    'url' => 'http://www.vw87china.com/html/about/contactus/',
+    'url' => 'http://phpcms.local/a/about/contactus/',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (
@@ -188,7 +188,7 @@ return array (
     'description' => '',
     'parentdir' => 'about/',
     'catdir' => 'hr',
-    'url' => 'http://www.vw87china.com/html/about/hr/',
+    'url' => 'http://phpcms.local/a/about/hr/',
     'items' => '0',
     'hits' => '0',
     'setting' => 'array (

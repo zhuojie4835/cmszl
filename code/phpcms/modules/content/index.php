@@ -354,6 +354,10 @@ class index {
 		} else {
 			return '1';
 		}
-	 }
+	}
+
+	public function test() {
+		include template('content','test');
+	}
 }
 ?>
